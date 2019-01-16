@@ -40,11 +40,11 @@ def game():
 
 
 def main():
-    for x in range(10):
+    for x in range(1000):
         start = time.time()
         game()
         end = time.time()
-        print("total :", (end - start))
+        print("total :", x, (end - start))
 
 
 if __name__ == '__main__':
