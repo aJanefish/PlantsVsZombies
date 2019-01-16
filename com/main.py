@@ -15,10 +15,10 @@ def game():
     time.sleep(8)
     # 放置植物
     tips.planting_peas()
-    tips.planting_sunflowers_one()
+    # tips.planting_sunflowers_one()
     tips.planting_sunflowers_two()
-    tips.planting_sunflowers_three()
-    tips.planting_sunflowers_four()
+    # tips.planting_sunflowers_three()
+    # tips.planting_sunflowers_four()
 
     # 开始战斗
     tips.start_fighting_two()
@@ -28,14 +28,14 @@ def game():
     tips.click_on_gold_coins()
 
     # 使用能量豆
-    tips.using_peas_one()
-    tips.click_on_gold_coins()
     tips.using_peas_two()
-    tips.click_on_gold_coins()
-    tips.using_peas_three()
-    tips.click_on_gold_coins()
-    tips.using_peas_four()
-    tips.click_on_gold_coins()
+    tips.using_peas_two()
+    tips.using_peas_two()
+    tips.using_peas_two()
+    # tips.using_peas_four()
+    # tips.using_peas_two()
+    # tips.using_peas_three()
+
     time.sleep(1)
 
 
