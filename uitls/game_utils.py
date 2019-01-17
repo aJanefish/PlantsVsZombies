@@ -11,14 +11,18 @@ from uitls.adb import auto_adb
 class KungFuWorldUltimateChallenge:
     def __init__(self):
         self.adb = auto_adb()
-        self.adb.test_device()
+        self.test_deivce()
         self.duration = 10
+
+    def test_deivce(self):
+        self.adb.test_device()
 
     # 开始战斗 点击一下
     def start_fighting_one(self):
         self.adb.run(2100, 1000, 2100, 1000, self.duration)
 
         # 开始战斗 点击一下
+
     def start_fighting_two(self):
         self.adb.run(1800, 200, 1800, 200, self.duration)
 
@@ -48,6 +52,7 @@ class KungFuWorldUltimateChallenge:
         self.adb.run(1350, 600, 1350, 600, self.duration)
 
         #  种植太阳花3   到4
+
     def planting_sunflowers_four(self):
         self.adb.run(100, 800, 100, 800, self.duration)
         self.adb.run(1500, 600, 1500, 600, self.duration)
@@ -71,6 +76,7 @@ class KungFuWorldUltimateChallenge:
         self.click_on_gold_coins()
 
         # 使用豌豆 到太阳花4
+
     def using_peas_four(self):
         self.adb.run(950, 1000, 950, 1000, self.duration)
         self.adb.run(1500, 600, 1500, 600, self.duration)
@@ -82,5 +88,3 @@ class KungFuWorldUltimateChallenge:
         self.adb.run(850, 650, 1550, 650, 200)
         self.adb.run(950, 600, 1550, 600, 200)
         self.adb.run(950, 600, 1550, 600, 200)
-
-

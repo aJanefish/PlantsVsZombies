@@ -51,7 +51,9 @@ class Game(threading.Thread):
         time.sleep(1)
 
     def start_game(self):
-        for x in range(10000):
+        for x in range(100000):
+            if (x < 5):
+                self.tips.test_deivce()
             start = time.time()
             self.game()
             end = time.time()
