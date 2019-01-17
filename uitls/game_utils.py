@@ -11,7 +11,7 @@ from uitls.adb import auto_adb
 class KungFuWorldUltimateChallenge:
     def __init__(self):
         self.adb = auto_adb()
-        self.adb.test_device()
+        # self.adb.test_device()
         self.duration = 10
 
     # 开始战斗 点击一下
