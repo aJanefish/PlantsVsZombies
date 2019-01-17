@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
 #  程序主函数
-from com.utils.game_utils import KungFuWorldUltimateChallenge
+
 import time
+
+from uitls.game_utils import KungFuWorldUltimateChallenge
 
 
 def game():

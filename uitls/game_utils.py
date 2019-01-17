@@ -2,8 +2,10 @@
 
 #  植物大战僵尸 辅助函数
 #  功夫世界 终极挑战  刷金币
-from com.utils.adb import auto_adb
+
 import time
+
+from uitls.adb import auto_adb
 
 
 class KungFuWorldUltimateChallenge:

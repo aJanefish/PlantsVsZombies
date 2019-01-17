@@ -2,7 +2,7 @@
 
 import sys
 
-from com.utils.adb import auto_adb
+from uitls.adb import auto_adb
 
 
 def main():
