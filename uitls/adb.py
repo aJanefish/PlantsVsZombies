@@ -69,7 +69,7 @@ class auto_adb():
             print('adb 输出:')
             for each in output:
                 print(each.decode('utf8'))
-            exit(1)
+            #   exit(1)
         print('设备已连接')
         print('adb 输出:')
         for each in output:
