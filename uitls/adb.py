@@ -60,6 +60,11 @@ class auto_adb():
     def test_device(self):
         print('检查设备是否连接...')
         print("adb_path:", self.adb_path)
+
+        command_list = [self.adb_path, 'kill-server']
+        print(command_list)
+        process = subprocess.Popen(command_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
         command_list = [self.adb_path, 'devices']
         print(command_list)
         process = subprocess.Popen(command_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
