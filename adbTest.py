@@ -3,6 +3,7 @@
 import sys
 
 from uitls.adb import auto_adb
+from uitls.game_utils import KungFuWorldUltimateChallenge
 
 
 def main():
@@ -30,10 +31,17 @@ def main():
     # adb.run(950, 1000, 950, 1000, 50)
 
     # 模拟点击金币
-    adb.run(950, 550, 1550, 550, 500)
-    adb.run(950, 600, 1550, 600, 500)
-    adb.run(950, 650, 1550, 650, 500)
+    #adb.run(850, 650, 1550, 650, 500)
+    adb.run(850, 600, 1550, 600, 500)
+
+
+def test():
+    tips = KungFuWorldUltimateChallenge(720, 1080)
+    # tips.using_Enerhy_Bean()
+    tips.restart_fighting()
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    test()
+    pass

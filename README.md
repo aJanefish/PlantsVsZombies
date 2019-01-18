@@ -9,9 +9,8 @@
 # 1. adb连接手机（没有adb的网上搜索adb安装教程）
 
 # 2. 进入功夫世界-终极挑战
-  >初始界面：如图
-
-  >植物放置情况：如图
+  >初始界面 和 植物放置情况：如图
+  ![我是图片](https://github.com/aJanefish/PlantsVsZombies/blob/master/start.jpg)
 
 
 # 3. python运行程序main.py

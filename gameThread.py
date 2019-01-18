@@ -6,10 +6,10 @@ from uitls.game_utils import KungFuWorldUltimateChallenge
 
 
 class Game(threading.Thread):
-    def __init__(self, name):
+    def __init__(self, name, width, high):
         threading.Thread.__init__(self)
         self.name = name
-        self.tips = KungFuWorldUltimateChallenge()
+        self.tips = KungFuWorldUltimateChallenge(width, high)
 
     def run(self):
         print("开始线程：" + self.name)
@@ -27,10 +27,7 @@ class Game(threading.Thread):
         time.sleep(8)
         # 放置植物
         self.tips.planting_peas()
-        # tips.planting_sunflowers_one()
-        self.tips.planting_sunflowers_two()
-        # tips.planting_sunflowers_three()
-        # tips.planting_sunflowers_four()
+        self.tips.planting_sunflowers()
 
         # 开始战斗
         self.tips.start_fighting_two()
@@ -40,13 +37,10 @@ class Game(threading.Thread):
         self.tips.click_on_gold_coins()
 
         # 使用能量豆
-        self.tips.using_peas_two()
-        self.tips.using_peas_two()
-        self.tips.using_peas_two()
-        self.tips.using_peas_two()
-        # tips.using_peas_four()
-        # tips.using_peas_two()
-        # tips.using_peas_three()
+        self.tips.using_Enerhy_Bean()
+        self.tips.using_Enerhy_Bean()
+        self.tips.using_Enerhy_Bean()
+        self.tips.using_Enerhy_Bean()
 
         time.sleep(1)
 
