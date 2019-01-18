@@ -52,8 +52,14 @@ class Game(threading.Thread):
 
     def start_game(self):
         for x in range(100000):
-            if (x < 5):
-                self.tips.test_deivce()
+            flag = self.tips.check_devices()
+            print("check_devices", flag)
+            while not flag:
+                self.tips.start_device()
+                flag = self.tips.test_deivce()
+                if flag:
+                    time.sleep(5)
+
             start = time.time()
             self.game()
             end = time.time()

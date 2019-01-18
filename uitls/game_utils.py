@@ -11,11 +11,17 @@ from uitls.adb import auto_adb
 class KungFuWorldUltimateChallenge:
     def __init__(self):
         self.adb = auto_adb()
-        self.test_deivce()
+        # self.test_deivce()
         self.duration = 10
 
     def test_deivce(self):
-        self.adb.test_device()
+        return self.adb.test_device()
+
+    def check_devices(self):
+        return self.adb.check_devices()
+
+    def start_device(self):
+        self.adb.start_device()
 
     # 开始战斗 点击一下
     def start_fighting_one(self):

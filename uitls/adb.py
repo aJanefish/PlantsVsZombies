@@ -60,25 +60,44 @@ class auto_adb():
     def test_device(self):
         print('检查设备是否连接...')
         print("adb_path:", self.adb_path)
-
-        command_list = [self.adb_path, 'kill-server']
-        print(command_list)
-        process = subprocess.Popen(command_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
         command_list = [self.adb_path, 'devices']
         print(command_list)
         process = subprocess.Popen(command_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         output = process.communicate()
-        if output[0].decode('utf8') == 'List of devices attached\n\n':
-            print('未找到设备')
-            print('adb 输出:')
-            for each in output:
-                print(each.decode('utf8'))
-            #   exit(1)
-        print('设备已连接')
-        print('adb 输出:')
+        # print("output", len(output))
+        # print(type(output[0]), output[0])
+        # print(output[0].decode('utf8'))
+        # if output[0].decode('utf8') == 'List of devices attached\n\n':
+        #     print('未找到设备')
+        #     print('adb 输出:')
+        #     for each in output:
+        #         print(each.decode('utf8'))
+        #     return False
+        #     #   exit(1)
+        # print('设备已连接')
+        # print('adb 输出:', )
+        flag = False
         for each in output:
-            print(each.decode('utf8'))
+            print(type(each), type(each.decode('utf8')), each.decode('utf8'))
+            if ('\tdevice' in each.decode('utf8')):
+                flag = True
+        return flag
+
+    def check_devices(self):
+        command_list = [self.adb_path, 'devices']
+        process = subprocess.Popen(command_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        output = process.communicate()
+        flag = False
+        for each in output:
+            if ('\tdevice' in each.decode('utf8')):
+                flag = True
+        return flag
+
+    def start_device(self):
+        command_list = [self.adb_path, 'kill-server']
+        print('重启adb服务...')
+        print(command_list)
+        subprocess.Popen(command_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     def test_density(self):
         # adb shell wm density

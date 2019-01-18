@@ -8,8 +8,13 @@ from uitls.adb import auto_adb
 def main():
     print("Python版本为", sys.version_info.major)
     adb = auto_adb()
-    adb.test_device()
-
+    flag = adb.test_device()
+    print("flag", flag)
+    while not flag:
+        adb.start_device()
+        flag = adb.test_device()
+        print("flag", flag)
+    print("连接成功")
     # 获取屏幕分辨率
     # density_str = adb.test_density()
     # print(density_str[:-1] + "dp")
@@ -22,7 +27,7 @@ def main():
     # adb.run(50, 2110, 50, 2110, 50)
     # 右下角
     # adb.run(100, 800, 100, 800, 50)
-    #adb.run(950, 1000, 950, 1000, 50)
+    # adb.run(950, 1000, 950, 1000, 50)
 
     # 模拟点击金币
     adb.run(950, 550, 1550, 550, 500)
