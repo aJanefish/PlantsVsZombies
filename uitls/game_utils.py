@@ -27,13 +27,13 @@ class KungFuWorldUltimateChallenge:
     def start_fighting_one(self):
         self.adb.run(2100, 1000, 2100, 1000, self.duration)
 
-        # 开始战斗 点击一下
-
+    # 开始战斗 点击一下
     def start_fighting_two(self):
         self.adb.run(1800, 200, 1800, 200, self.duration)
 
-    # 重新开始 点击两下
+    # 重新开始
     def restart_fighting(self):
+        self.adb.run(1000, 800, 1000, 800, self.duration)
         self.adb.run(2100, 50, 2100, 50, self.duration)
         self.adb.run(1000, 800, 1000, 800, self.duration)
 
