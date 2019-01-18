@@ -9,7 +9,7 @@ class PZPoint:
     def __init__(self, x, y, ratiow, ratioh):
         self.x = int(float(x) * ratiow)
         self.y = int(float(y) * ratioh)
-        print(self.x, self.y)
+        # print(self.x, self.y)
 
 
 class PlantPosition:
