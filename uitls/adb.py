@@ -81,7 +81,7 @@ class auto_adb():
 
         for each in output:
             print(type(each), type(each.decode('utf8')), each.decode('utf8'))
-            self._log(each.decode('utf8'))
+            # self._log(each.decode('utf8'))
             if ('\tdevice' in each.decode('utf8')):
                 flag = True
 
@@ -106,7 +106,7 @@ class auto_adb():
         command_list = [self.adb_path, 'kill-server']
         print('重启adb服务...')
         print(command_list)
-        self._log(command_list)
+        # self._log(command_list)
         subprocess.Popen(command_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     def test_density(self):
