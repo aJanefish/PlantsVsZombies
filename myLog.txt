@@ -1,0 +1,50 @@
+Sat Jan 19 16:31:19 2019  :  List of devices attached
+Sat Jan 19 16:31:19 2019  :  error: protocol fault (couldn't read status): Connection reset by peer
+Sat Jan 19 16:31:23 2019  :  List of devices attached
+
+Sat Jan 19 16:31:23 2019  :  * daemon not running; starting now at tcp:5037
+* daemon started successfully
+Sat Jan 19 16:31:23 2019  :  List of devices attached
+Sat Jan 19 16:31:23 2019  :  error: protocol fault (couldn't read status): Connection reset by peer
+Sat Jan 19 16:31:27 2019  :  List of devices attached
+
+Sat Jan 19 16:31:27 2019  :  * daemon not running; starting now at tcp:5037
+* daemon started successfully
+Sat Jan 19 16:31:27 2019  :  List of devices attached
+Sat Jan 19 16:31:27 2019  :  error: protocol fault (couldn't read status): Connection reset by peer
+Sat Jan 19 16:31:31 2019  :  List of devices attached
+
+Sat Jan 19 16:31:31 2019  :  * daemon not running; starting now at tcp:5037
+* daemon started successfully
+Sat Jan 19 16:31:31 2019  :  List of devices attached
+Sat Jan 19 16:31:31 2019  :  error: protocol fault (couldn't read status): Connection reset by peer
+Sat Jan 19 16:31:35 2019  :  List of devices attached
+
+Sat Jan 19 16:31:35 2019  :  * daemon not running; starting now at tcp:5037
+* daemon started successfully
+Sat Jan 19 16:31:35 2019  :  List of devices attached
+Sat Jan 19 16:31:35 2019  :  error: protocol fault (couldn't read status): Connection reset by peer
+Sat Jan 19 16:31:39 2019  :  List of devices attached
+
+Sat Jan 19 16:31:39 2019  :  * daemon not running; starting now at tcp:5037
+* daemon started successfully
+Sat Jan 19 16:31:39 2019  :  List of devices attached
+Sat Jan 19 16:31:39 2019  :  error: protocol fault (couldn't read status): Connection reset by peer
+Sat Jan 19 16:32:21 2019  :  List of devices attached
+
+Sat Jan 19 16:32:21 2019  :  * daemon not running; starting now at tcp:5037
+* daemon started successfully
+Sat Jan 19 16:32:21 2019  :  List of devices attached
+Sat Jan 19 16:32:21 2019  :  error: protocol fault (couldn't read status): Connection reset by peer
+Sat Jan 19 16:32:25 2019  :  List of devices attached
+
+Sat Jan 19 16:32:25 2019  :  * daemon not running; starting now at tcp:5037
+* daemon started successfully
+Sat Jan 19 16:32:25 2019  :  List of devices attached
+Sat Jan 19 16:32:25 2019  :  error: protocol fault (couldn't read status): Connection reset by peer
+Sat Jan 19 16:32:29 2019  :  List of devices attached
+
+Sat Jan 19 16:32:29 2019  :  * daemon not running; starting now at tcp:5037
+* daemon started successfully
+Sat Jan 19 16:32:29 2019  :  List of devices attached
+Sat Jan 19 16:32:29 2019  :  error: protocol fault (couldn't read status): Connection reset by peer

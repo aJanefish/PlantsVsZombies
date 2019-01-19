@@ -3,9 +3,10 @@ import os
 import subprocess
 import platform
 
-
 #  adb 触屏函数
 #  参看 https://github.com/wangshub/wechat_jump_game
+import time
+
 
 class auto_adb():
     def __init__(self):
@@ -77,10 +78,13 @@ class auto_adb():
         # print('设备已连接')
         # print('adb 输出:', )
         flag = False
+        file = open("myLog.txt", "a")
         for each in output:
             print(type(each), type(each.decode('utf8')), each.decode('utf8'))
+            file.write(time.strftime("%a %b %d %H:%M:%S %Y", time.localtime()) + "  :  " + each.decode('utf8'))
             if ('\tdevice' in each.decode('utf8')):
                 flag = True
+        file.close()
         return flag
 
     def check_devices(self):
