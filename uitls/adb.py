@@ -78,14 +78,19 @@ class auto_adb():
         # print('设备已连接')
         # print('adb 输出:', )
         flag = False
-        file = open("myLog.txt", "a")
+
         for each in output:
             print(type(each), type(each.decode('utf8')), each.decode('utf8'))
-            file.write(time.strftime("%a %b %d %H:%M:%S %Y", time.localtime()) + "  :  " + each.decode('utf8'))
+            self._log(each.decode('utf8'))
             if ('\tdevice' in each.decode('utf8')):
                 flag = True
-        file.close()
+
         return flag
+
+    def _log(self, values):
+        file = open("myLog.txt", "a")
+        file.write(time.strftime("%a %b %d %H:%M:%S %Y", time.localtime()) + "  :  " + str(values) + "\n")
+        file.close()
 
     def check_devices(self):
         command_list = [self.adb_path, 'devices']
@@ -101,6 +106,7 @@ class auto_adb():
         command_list = [self.adb_path, 'kill-server']
         print('重启adb服务...')
         print(command_list)
+        self._log(command_list)
         subprocess.Popen(command_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     def test_density(self):
