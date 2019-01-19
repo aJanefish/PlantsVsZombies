@@ -59,6 +59,8 @@ class KungFuWorldUltimateChallenge:
 
     # 使用能量豆
     def using_Enerhy_Bean(self):
+        x1, y1, x2, y2 = self._plantPosition.get_Primitive_sun_flower_space()
+        self._adb.run(x1, y1, x2, y2, self._duration)
         x1, y1, x2, y2 = self._plantPosition.get_Enerhy_Bean()
         self._adb.run(x1, y1, x2, y2, self._duration)
         x1, y1, x2, y2 = self._plantPosition.get_Primitive_sun_flower_space()

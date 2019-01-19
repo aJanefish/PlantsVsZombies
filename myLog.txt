@@ -170,3 +170,17 @@ List of devices attached
 
 Sat Jan 19 16:51:26 2019  :  
 Sat Jan 19 16:51:26 2019  :  ['adb', 'kill-server']
+Sat Jan 19 16:51:30 2019  :  * daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+List of devices attached 
+
+
+Sat Jan 19 16:51:30 2019  :  
+Sat Jan 19 16:51:30 2019  :  ['adb', 'kill-server']
+Sat Jan 19 16:51:35 2019  :  * daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+List of devices attached 
+
+
+Sat Jan 19 16:51:35 2019  :  
+Sat Jan 19 16:51:35 2019  :  ['adb', 'kill-server']
