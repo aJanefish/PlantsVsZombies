@@ -38,7 +38,7 @@ class Game(threading.Thread):
 
         # 使用能量豆
         self.tips.using_Energy_Bean()
-        # self.tips.using_Enerhy_Bean()
+        # self.tips.using_Energy_Bean()
         # self.tips.using_Enerhy_Bean()
         # self.tips.using_Enerhy_Bean()
 

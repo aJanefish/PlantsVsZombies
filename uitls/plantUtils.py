@@ -82,5 +82,5 @@ class PlantPosition:
         return self._start_game_two
 
     # 获取能量豆位置
-    def get_Enerhy_Bean(self):
+    def get_Energy_Bean(self):
         return self._energy_bean
