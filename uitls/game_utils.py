@@ -24,57 +24,84 @@ class KungFuWorldUltimateChallenge:
     def start_device(self):
         self._adb.start_device()
 
+    def _click_plant(self, index):
+        point = self._plantPosition.get_plant_list_by(index)
+        self._adb.run(point.x, point.y, point.x, point.y, self._duration)
+
+    def _click_space(self, x, y):
+        point = self._plantPosition.get_battlefield_space(x, y)
+        self._adb.run(point.x, point.y, point.x, point.y, self._duration)
+
     # 开始战斗 点击一下
     def start_fighting_one(self):
-        x1, y1, x2, y2 = self._plantPosition.start_fighting_one()
-        self._adb.run(x1, y1, x2, y2, self._duration)
+        point = self._plantPosition.start_fighting_one()
+        self._adb.run(point.x, point.y, point.x, point.y, self._duration)
 
     # 开始战斗 点击一下
     def start_fighting_two(self):
-        x1, y1, x2, y2 = self._plantPosition.start_fighting_two()
-        self._adb.run(x1, y1, x2, y2, self._duration)
+        point = self._plantPosition.start_fighting_two()
+        self._adb.run(point.x, point.y, point.x, point.y, self._duration)
 
     # 重新开始
     def restart_fighting(self):
-        x1, y1, x2, y2 = self._plantPosition.get_restart_game_point()
-        self._adb.run(x1, y1, x2, y2, self._duration)
-        x1, y1, x2, y2 = self._plantPosition.get_time_out()
-        self._adb.run(x1, y1, x2, y2, self._duration)
-        x1, y1, x2, y2 = self._plantPosition.get_restart_game_point()
-        self._adb.run(x1, y1, x2, y2, self._duration)
+        point = self._plantPosition.get_restart_game_point()
+        self._adb.run(point.x, point.y, point.x, point.y, self._duration)
+        point_time_out = self._plantPosition.get_time_out()
+        self._adb.run(point_time_out.x, point_time_out.y, point_time_out.x, point_time_out.y, self._duration)
+
+        self._adb.run(point.x, point.y, point.x, point.y, self._duration)
 
     # 种植豌豆到八卦位置 点击两下
     def planting_peas(self):
-        x1, y1, x2, y2 = self._plantPosition.getPea300_initial()
-        self._adb.run(x1, y1, x2, y2, self._duration)
-        x1, y1, x2, y2 = self._plantPosition.getPea300_space()
-        self._adb.run(x1, y1, x2, y2, self._duration)
+        self._click_plant(1)
+        self._click_space(0, 2)
 
     #  种植太阳花
     def planting_sunflowers(self):
-        x1, y1, x2, y2 = self._plantPosition.get_Primitive_sun_flower_initial()
-        self._adb.run(x1, y1, x2, y2, self._duration)
-        x1, y1, x2, y2 = self._plantPosition.get_Primitive_sun_flower_space()
-        self._adb.run(x1, y1, x2, y2, self._duration)
+        self._click_plant(0)
+        self._click_space(1, 2)
+        self._click_plant(0)
+        self._click_space(2, 2)
+        self._click_plant(0)
+        self._click_space(3, 2)
+        self._click_plant(0)
+        self._click_space(4, 2)
+
+    # 点击能量豆
+    def _click_energy(self):
+        point = self._plantPosition.get_Enerhy_Bean()
+        self._adb.run(point.x, point.y, point.x, point.y, self._duration)
 
     # 使用能量豆
-    def using_Enerhy_Bean(self):
-        x1, y1, x2, y2 = self._plantPosition.get_Primitive_sun_flower_space()
-        self._adb.run(x1, y1, x2, y2, self._duration)
-        x1, y1, x2, y2 = self._plantPosition.get_Enerhy_Bean()
-        self._adb.run(x1, y1, x2, y2, self._duration)
-        x1, y1, x2, y2 = self._plantPosition.get_Primitive_sun_flower_space()
-        self._adb.run(x1, y1, x2, y2, self._duration)
+    def using_Energy_Bean(self):
+        # self._click_space(2, 2)
+        # self.click_on_gold_coins()
+
+        self._click_energy()
+        self._click_space(1, 2)
+        self._click_energy()
+        self._click_space(2, 2)
+        self._click_energy()
+        self._click_space(3, 2)
+        self._click_energy()
+        self._click_space(4, 2)
+
         self.click_on_gold_coins()
+
+    # 收集能量豆
+    def collect_energy_beans(self):
+        duration = 50
+        point1 = self._plantPosition.get_battlefield_space(0, 2)
+        self._adb.run(point1.x - 100, point1.y + 50, point1.x + 100, point1.y + 50, duration)
+        self._adb.run(point1.x - 100, point1.y + 100, point1.x + 100, point1.y + 100, duration)
+
 
     # 模拟点击金币 否则会影响到使用能量豆
     def click_on_gold_coins(self):
         duration = 100
-        x1, y1, x2, y2 = self._plantPosition.collect_gold_coins_line_one()
-        self._adb.run(x1, y1, x2, y2, duration)
-        x1, y1, x2, y2 = self._plantPosition.collect_gold_coins_line_two()
-        self._adb.run(x1, y1, x2, y2, duration)
-        x1, y1, x2, y2 = self._plantPosition.collect_gold_coins_line_three()
-        self._adb.run(x1, y1, x2, y2, duration)
-        x1, y1, x2, y2 = self._plantPosition.collect_gold_coins_line_four()
-        self._adb.run(x1, y1, x2, y2, duration)
+        point1 = self._plantPosition.get_battlefield_space(0, 2)
+        point2 = self._plantPosition.get_battlefield_space(4, 2)
+        self._adb.run(point1.x - 100, point1.y + 50, point2.x + 100, point2.y + 50, duration)
+        self._adb.run(point1.x - 100, point1.y, point2.x + 100, point2.y, duration)
+        self._adb.run(point1.x - 100, point1.y + 50, point2.x + 100, point2.y - 50, duration)
+        self._adb.run(point1.x - 100, point1.y - 50, point2.x + 100, point2.y + 50, duration)

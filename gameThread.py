@@ -34,13 +34,13 @@ class Game(threading.Thread):
         # 等待动画完成
         time.sleep(3)
         #  收集能量豆
-        self.tips.click_on_gold_coins()
+        self.tips.collect_energy_beans()
 
         # 使用能量豆
-        self.tips.using_Enerhy_Bean()
-        self.tips.using_Enerhy_Bean()
-        self.tips.using_Enerhy_Bean()
-        self.tips.using_Enerhy_Bean()
+        self.tips.using_Energy_Bean()
+        # self.tips.using_Enerhy_Bean()
+        # self.tips.using_Enerhy_Bean()
+        # self.tips.using_Enerhy_Bean()
 
         time.sleep(1)
 

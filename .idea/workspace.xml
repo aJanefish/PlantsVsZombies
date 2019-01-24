@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cec2ff9-753a-4633-b053-70942e1a1196" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/uitls/adb.py" beforeDir="false" afterPath="$PROJECT_DIR$/uitls/adb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PlantsVsZombies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PlantsVsZombies.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adbTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/adbTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameThread.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameThread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uitls/game_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/uitls/game_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uitls/plantUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/uitls/plantUtils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +24,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="341">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adbTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding>
+                <element signature="e#25#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gameThread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="52" column="36" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="44" />
+            <state relative-caret-position="243">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -36,19 +54,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uitls/game_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="351">
+              <caret line="91" column="28" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uitls/adb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+            <state relative-caret-position="221">
+              <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uitls/plantUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmEdu2018.3/system/python_stubs/922135058/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="3660" column="8" selection-start-line="3660" selection-start-column="8" selection-end-line="3660" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/status_two.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -68,6 +109,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>duration</find>
+      <find>test_device_detail</find>
     </findStrings>
     <replaceStrings>
       <replace>_duration</replace>
@@ -85,13 +127,13 @@
         <option value="$PROJECT_DIR$/com/main.py" />
         <option value="$PROJECT_DIR$/com/utils/game_utils.py" />
         <option value="$PROJECT_DIR$/uitls/gameThread.py" />
-        <option value="$PROJECT_DIR$/gameThread.py" />
-        <option value="$PROJECT_DIR$/adbTest.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/uitls/plantUtils.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/uitls/game_utils.py" />
         <option value="$PROJECT_DIR$/uitls/adb.py" />
+        <option value="$PROJECT_DIR$/adbTest.py" />
+        <option value="$PROJECT_DIR$/uitls/plantUtils.py" />
+        <option value="$PROJECT_DIR$/uitls/game_utils.py" />
+        <option value="$PROJECT_DIR$/gameThread.py" />
       </list>
     </option>
   </component>
@@ -293,18 +335,18 @@
     <option name="totallyTimeSpent" value="1560000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25520834" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25500527" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.43661973" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.41928494" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -321,6 +363,32 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25500527" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.57529795" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="R Graphics" order="0" />
+      <window_info anchor="right" id="R Packages" order="1" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -337,7 +405,6 @@
     <entry file="file://$PROJECT_DIR$/start.jpg" />
     <entry file="file://$PROJECT_DIR$/status_two.jpg" />
     <entry file="file://$PROJECT_DIR$/status_one.jpg" />
-    <entry file="file://$PROJECT_DIR$/uitls/plantUtils.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -345,36 +412,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adbTest.py" />
     <entry file="file://$PROJECT_DIR$/foo.txt" />
+    <entry file="file://$PROJECT_DIR$/myLog.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uitls/adb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/status_two.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmEdu2018.3/system/python_stubs/922135058/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="3660" column="8" selection-start-line="3660" selection-start-column="8" selection-end-line="3660" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="341">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adbTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uitls/plantUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uitls/game_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gameThread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="52" column="36" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myLog.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uitls/game_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uitls/adb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+        <state relative-caret-position="243">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
         </state>
       </provider>
     </entry>

@@ -4,6 +4,7 @@ import sys
 
 from uitls.adb import auto_adb
 from uitls.game_utils import KungFuWorldUltimateChallenge
+from uitls.plantUtils import PlantPosition
 
 
 def main():
@@ -16,32 +17,25 @@ def main():
         flag = adb.test_device()
         print("flag", flag)
     print("连接成功")
-    # 获取屏幕分辨率
-    # density_str = adb.test_density()
-    # print(density_str[:-1] + "dp")
-    #  1080 2160
-    # 坐标原点
-    # adb.run(50, 50, 50, 50, 50)
-    # 右上角
-    # adb.run(1030, 50, 1030, 50, 50)
-    # 左下角
-    # adb.run(50, 2110, 50, 2110, 50)
-    # 右下角
-    # adb.run(100, 800, 100, 800, 50)
-    # adb.run(950, 1000, 950, 1000, 50)
 
-    # 模拟点击金币
-    #adb.run(850, 650, 1550, 650, 500)
-    adb.run(850, 600, 1550, 600, 500)
+    # Battlefield space
+    # 850 150
+    # 2120 950
+    # adb.run(2120, 950, 2120, 950, 5)
+    # plantposition = PlantPosition(1080, 2160)
+    # for x in range(9):
+    #     for y in range(5):
+    #        point = plantposition.get_battlefield_space(x, y)
+    #        adb.run(point.x, point.y, point.x, point.y, 500)
 
 
 def test():
-    tips = KungFuWorldUltimateChallenge(720, 1080)
+    tips = KungFuWorldUltimateChallenge(1080, 2160)
     # tips.using_Enerhy_Bean()
     tips.restart_fighting()
 
 
 if __name__ == '__main__':
-    # main()
-    test()
+    main()
+    # test()
     pass
