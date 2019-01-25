@@ -66,8 +66,10 @@ class KungFuWorldUltimateChallenge:
     # 点击能量豆
     def _click_energy(self, x, y):
         point_energy = self._plantPosition.get_Energy_Bean()
+        self._adb.run(point_energy.x, point_energy.y, point_energy.x, point_energy.y, self._duration)
+        point02 = self._plantPosition.get_battlefield_space(0, 2)
         point = self._plantPosition.get_battlefield_space(x, y)
-        self._adb.run(point_energy.x, point_energy.y, point.x+20, point.y+20, 200)
+        self._adb.run(point02.x - 100, point02.y, point.x + 20, point.y, 200)
 
     # 使用能量豆
     def using_Energy_Bean(self):
@@ -75,7 +77,6 @@ class KungFuWorldUltimateChallenge:
         self._click_energy(2, 2)
         self._click_energy(3, 2)
         self._click_energy(4, 2)
-
         self.click_on_gold_coins()
 
     # 收集能量豆
