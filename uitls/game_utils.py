@@ -53,15 +53,15 @@ class KungFuWorldUltimateChallenge:
         self._adb.run(point.x, point.y, point.x, point.y, self._duration)
 
     # 种植豌豆到八卦位置 点击两下
-    def planting_peas(self):
-        self._click_space(1, 0, 2)
+    def planting(self, index, x, y):
+        self._click_space(index, x, y)
 
-    #  种植太阳花
-    def planting_sunflowers(self):
-        self._click_space(0, 1, 2)
-        self._click_space(0, 2, 2)
-        self._click_space(0, 3, 2)
-        self._click_space(0, 4, 2)
+    # #  种植太阳花
+    # def planting_sunflowers(self):
+    #     self._click_space(0, 1, 2)
+    #     self._click_space(0, 2, 2)
+    #     self._click_space(0, 3, 2)
+    #     self._click_space(0, 4, 2)
 
     # 点击能量豆
     def _click_energy(self, x, y):
@@ -72,12 +72,8 @@ class KungFuWorldUltimateChallenge:
         self._adb.run(point02.x - 100, point02.y, point.x + 20, point.y, 200)
 
     # 使用能量豆
-    def using_Energy_Bean(self):
-        self._click_energy(1, 2)
-        self._click_energy(2, 2)
-        self._click_energy(3, 2)
-        self._click_energy(4, 2)
-        self.click_on_gold_coins()
+    def using_Energy_Bean(self, x, y):
+        self._click_energy(x, y)
 
     # 收集能量豆
     def collect_energy_beans(self):

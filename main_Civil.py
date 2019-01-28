@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 #  程序主函数
-#  有瓷砖
-from gameThreadCeramicTile import GameCeramicTile
+#  平民收集金币
+from gameThread import Game
 
 if __name__ == '__main__':
     print("main start")
@@ -13,8 +13,7 @@ if __name__ == '__main__':
         print("请设置手机的分辨率")
         exit(1)
     print("手机分辨率为:", w, h)
-
-    game = GameCeramicTile("有瓷砖的刷法", w, h)
+    game = Game("PlantsVsZombies", w, h)
     game.start()
     print()
     print("main end")

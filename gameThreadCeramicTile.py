@@ -5,7 +5,7 @@ import time
 from uitls.game_utils import KungFuWorldUltimateChallenge
 
 
-class Game(threading.Thread):
+class GameCeramicTile(threading.Thread):
     def __init__(self, name, width, high):
         threading.Thread.__init__(self)
         self.name = name
@@ -27,10 +27,16 @@ class Game(threading.Thread):
         time.sleep(8)
         # 放置植物
         self.tips.planting(1, 0, 2)
+        #
         self.tips.planting(0, 1, 2)
         self.tips.planting(0, 2, 2)
         self.tips.planting(0, 3, 2)
-        self.tips.planting(0, 4, 2)
+        self.tips.planting(3, 4, 2)
+        # ss
+        self.tips.planting(2, 1, 2)
+        self.tips.planting(2, 2, 2)
+        self.tips.planting(2, 3, 2)
+        self.tips.planting(2, 4, 2)
 
         # 开始战斗
         self.tips.start_fighting_two()
@@ -40,10 +46,14 @@ class Game(threading.Thread):
         self.tips.collect_energy_beans()
 
         # 使用能量豆
-        self.tips.using_Energy_Bean(1, 2)
-        self.tips.using_Energy_Bean(2, 2)
-        self.tips.using_Energy_Bean(3, 2)
         self.tips.using_Energy_Bean(4, 2)
+        time.sleep(1.5)
+        self.tips.using_Energy_Bean(4, 2)
+        time.sleep(1.5)
+        self.tips.using_Energy_Bean(4, 2)
+        time.sleep(1.5)
+        self.tips.using_Energy_Bean(4, 2)
+        time.sleep(1.5)
         # 收集金币
         self.tips.click_on_gold_coins()
         time.sleep(1)
