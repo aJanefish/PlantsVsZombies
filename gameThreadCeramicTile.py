@@ -26,17 +26,17 @@ class GameCeramicTile(threading.Thread):
         # 等待动画完成
         time.sleep(8)
         # 放置植物
-        self.tips.planting(1, 0, 2)
+        # self.tips.planting(1, 0, 2)
         #
         self.tips.planting(0, 1, 2)
         self.tips.planting(0, 2, 2)
         self.tips.planting(0, 3, 2)
-        self.tips.planting(3, 4, 2)
+        self.tips.planting(0, 4, 2)
         # ss
-        self.tips.planting(2, 1, 2)
-        self.tips.planting(2, 2, 2)
-        self.tips.planting(2, 3, 2)
-        self.tips.planting(2, 4, 2)
+        self.tips.planting(1, 1, 2)
+        self.tips.planting(1, 2, 2)
+        self.tips.planting(1, 3, 2)
+        self.tips.planting(1, 4, 2)
 
         # 开始战斗
         self.tips.start_fighting_two()
