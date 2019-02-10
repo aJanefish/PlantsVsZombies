@@ -43,20 +43,20 @@ class GameCeramicTile(threading.Thread):
         # 等待动画完成
         time.sleep(3)
         #  收集能量豆
-        self.tips.collect_energy_beans()
+        # self.tips.collect_energy_beans()
 
         # 使用能量豆
         self.tips.using_Energy_Bean(4, 2)
-        time.sleep(1.5)
+        time.sleep(1)
         self.tips.using_Energy_Bean(4, 2)
-        time.sleep(1.5)
+        time.sleep(1)
         self.tips.using_Energy_Bean(4, 2)
-        time.sleep(1.5)
+        time.sleep(1)
         # self.tips.using_Energy_Bean(4, 2)
         # time.sleep(1.5)
         # 收集金币
         self.tips.click_on_gold_coins()
-        time.sleep(1)
+        # time.sleep(1)
 
     def start_game(self):
         for x in range(100000):
