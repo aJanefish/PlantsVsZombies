@@ -12,7 +12,7 @@ class KungFuWorldUltimateChallenge:
         self._adb = auto_adb()
         # self.test_deivce()
         # 点击的时间间隔
-        self._duration = 10
+        self._duration = 1
         self._plantPosition = PlantPosition(width, high)
 
     def test_deivce(self):
