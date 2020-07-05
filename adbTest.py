@@ -2,14 +2,14 @@
 
 import sys
 
-from uitls.adb import auto_adb
+from uitls.adb import AutoAdb
 from uitls.game_utils import KungFuWorldUltimateChallenge
 from uitls.plantUtils import PlantPosition
 
 
 def main():
     print("Python版本为", sys.version_info.major)
-    adb = auto_adb()
+    adb = AutoAdb()
     flag = adb.test_device()
     print("flag", flag)
     while not flag:

@@ -3,13 +3,13 @@
 #  植物大战僵尸 辅助函数
 #  功夫世界 终极挑战  刷金币
 
-from uitls.adb import auto_adb
+from uitls.adb import AutoAdb
 from uitls.plantUtils import PlantPosition
 
 
 class KungFuWorldUltimateChallenge:
     def __init__(self, width, high):
-        self._adb = auto_adb()
+        self._adb = AutoAdb()
         # self.test_deivce()
         # 点击的时间间隔
         self._duration = 1

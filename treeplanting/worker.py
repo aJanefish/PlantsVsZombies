@@ -2,7 +2,7 @@
 ###
 #  植树活动 获取碎片 works
 ###
-from uitls.adb import auto_adb
+from uitls.adb import AutoAdb
 from uitls.plantUtils import PZPoint
 
 
@@ -42,7 +42,7 @@ class TreePosition:
 class TreeWorker:
 
     def __init__(self, width, high):
-        self._adb = auto_adb()
+        self._adb = AutoAdb()
         # 点击的时间间隔
         self._duration = 1
         self._treePosition = TreePosition(width, high)

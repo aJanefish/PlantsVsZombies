@@ -8,7 +8,7 @@ import platform
 import time
 
 
-class auto_adb():
+class AutoAdb:
     def __init__(self):
         try:
             adb_path = 'adb'

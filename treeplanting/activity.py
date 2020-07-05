@@ -12,11 +12,11 @@ class Tree(threading.Thread):
     def __init__(self, name, width, high):
         threading.Thread.__init__(self)
         self.name = name
-        self._worker = TreeWorker(width,high)
+        self._worker = TreeWorker(width, high)
 
     def run(self):
         for x in range(300):
-            print x
+            print(x)
             self.work()
 
     def work(self):

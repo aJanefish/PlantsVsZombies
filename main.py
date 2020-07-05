@@ -37,7 +37,7 @@ def tree():
 
 
 if __name__ == '__main__':
-    flag = 2
+    flag = 1
     if flag == 1:  # 刷金币
         cold()
     elif flag == 2:  # 植树活动
