@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cec2ff9-753a-4633-b053-70942e1a1196" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PlantsVsZombies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PlantsVsZombies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1cec2ff9-753a-4633-b053-70942e1a1196" name="Default Changelist" comment="update 20200705 01">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adbTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/adbTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameThreadCeramicTile.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameThreadCeramicTile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treeplanting/activity.py" beforeDir="false" afterPath="$PROJECT_DIR$/treeplanting/activity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treeplanting/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/treeplanting/worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uitls/adb.py" beforeDir="false" afterPath="$PROJECT_DIR$/uitls/adb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uitls/game_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/uitls/game_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,17 +39,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>duration</find>
-      <find>test_device_detail</find>
-      <find>_click_plant</find>
-      <find>_duration</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>_duration</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -194,40 +196,67 @@
       <updated>1547885025645</updated>
       <workItem from="1547885028139" duration="1535000" />
       <workItem from="1547886726708" duration="25000" />
-      <workItem from="1593950291007" duration="6019000" />
+      <workItem from="1593950291007" duration="7271000" />
     </task>
+    <task id="LOCAL-00001" summary="update 20200705 01">
+      <created>1593957671788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593957671788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update 20200705 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 20200705 01" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="331" key="FileChooserDialogImpl" timestamp="1593950730028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="331" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593950730028" />
-    <state width="1877" height="382" key="GridCell.Tab.0.bottom" timestamp="1593957601852">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1593957853080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593957601852" />
-    <state width="1877" height="382" key="GridCell.Tab.0.center" timestamp="1593957601852">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593957853080" />
+    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1593957853080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593957601852" />
-    <state width="1877" height="382" key="GridCell.Tab.0.left" timestamp="1593957601852">
+    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593957853080" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1593957853080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593957601852" />
-    <state width="1877" height="382" key="GridCell.Tab.0.right" timestamp="1593957601852">
+    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593957853080" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1593957853080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593957601852" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593957853080" />
+    <state x="766" y="240" key="RollbackChangesDialog" timestamp="1593957913833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593957913833" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1593951384093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593951384093" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PlantsVsZombies$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1593957601843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PlantsVsZombies$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1593957835899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

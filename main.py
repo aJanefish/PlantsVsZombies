@@ -6,6 +6,7 @@ from gameThreadCeramicTile import GameCeramicTile
 from treeplanting.activity import Tree
 
 
+# 无限刷金币-功夫世界BOSS关卡
 def cold():
     print("main start")
     # 输入自己手机的分辨率 1080 2160
