@@ -3,8 +3,8 @@
 import sys
 
 from uitls.adb import AutoAdb
-from uitls.game_utils import KungFuWorldUltimateChallenge
-from uitls.plantUtils import PlantPosition
+from uitls.game_utils import KongFuWorldUltimateChallenge
+from uitls.plantUtils import PZPoint
 
 
 def main():
@@ -30,12 +30,22 @@ def main():
 
 
 def test():
-    tips = KungFuWorldUltimateChallenge(1080, 2160)
-    # tips.using_Enerhy_Bean()
+    tips = KongFuWorldUltimateChallenge(1080, 2160)
     tips.restart_fighting()
 
 
+def test_click():
+    adb = AutoAdb()
+    point = PZPoint(1780, 160, 1, 1)
+    adb.run(point.x, point.y, point.x, point.y, 500)
+    # 新版本弹窗广告删除按钮坐标
+    point1 = PZPoint(1680, 160, 1, 1)
+    adb.run(point1.x, point1.y, point1.x, point1.y, 500)
+    pass
+
+
 if __name__ == '__main__':
-    main()
+    # main()
     # test()
+    test_click()
     pass

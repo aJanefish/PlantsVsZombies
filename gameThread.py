@@ -2,14 +2,14 @@
 import threading
 import time
 
-from uitls.game_utils import KungFuWorldUltimateChallenge
+from uitls.game_utils import KongFuWorldUltimateChallenge
 
 
 class Game(threading.Thread):
     def __init__(self, name, width, high):
         threading.Thread.__init__(self)
         self.name = name
-        self.tips = KungFuWorldUltimateChallenge(width, high)
+        self.tips = KongFuWorldUltimateChallenge(width, high)
 
     def run(self):
         print("开始线程：" + self.name)
@@ -40,10 +40,10 @@ class Game(threading.Thread):
         self.tips.collect_energy_beans()
 
         # 使用能量豆
-        self.tips.using_Energy_Bean(1, 2)
-        self.tips.using_Energy_Bean(2, 2)
-        self.tips.using_Energy_Bean(3, 2)
-        self.tips.using_Energy_Bean(4, 2)
+        self.tips.using_energy_bean(1, 2)
+        self.tips.using_energy_bean(2, 2)
+        self.tips.using_energy_bean(3, 2)
+        self.tips.using_energy_bean(4, 2)
         # 收集金币
         self.tips.click_on_gold_coins()
         time.sleep(1)
@@ -54,7 +54,7 @@ class Game(threading.Thread):
             print("check_devices", flag)
             while not flag:
                 self.tips.start_device()
-                flag = self.tips.test_deivce()
+                flag = self.tips.test_devices()
                 if flag:
                     time.sleep(5)
 

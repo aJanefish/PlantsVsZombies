@@ -9,7 +9,7 @@ from treeplanting.activity import Tree
 # 无限刷金币-功夫世界BOSS关卡
 def cold():
     print("main start")
-    # 输入自己手机的分辨率 1080 2160
+    # 输入自己手机的分辨率 1080 2160 (其他手机机型需要输入自己的真实分辨率后,会基于这个类比坐标)
     w = 1080
     h = 2160
     if w == 0 or h == 0:

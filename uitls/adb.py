@@ -4,7 +4,7 @@ import subprocess
 import platform
 
 #  adb 触屏函数
-#  参看 https://github.com/wangshub/wechat_jump_game
+#  参看 https://github.com/wangshub/wechat_jump_game 微信跳一跳
 import time
 
 
@@ -82,12 +82,13 @@ class AutoAdb:
         for each in output:
             print(type(each), type(each.decode('utf8')), each.decode('utf8'))
             # self._log(each.decode('utf8'))
-            if ('\tdevice' in each.decode('utf8')):
+            if '\tdevice' in each.decode('utf8'):
                 flag = True
 
         return flag
 
-    def _log(self, values):
+    @staticmethod
+    def _log(values):
         file = open("myLog.txt", "a")
         file.write(time.strftime("%a %b %d %H:%M:%S %Y", time.localtime()) + "  :  " + str(values) + "\n")
         file.close()
@@ -98,7 +99,7 @@ class AutoAdb:
         output = process.communicate()
         flag = False
         for each in output:
-            if ('\tdevice' in each.decode('utf8')):
+            if '\tdevice' in each.decode('utf8'):
                 flag = True
         return flag
 

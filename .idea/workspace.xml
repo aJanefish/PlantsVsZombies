@@ -19,11 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cec2ff9-753a-4633-b053-70942e1a1196" name="Default Changelist" comment="update 20200705 01">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="1cec2ff9-753a-4633-b053-70942e1a1196" name="Default Changelist" comment="update 20200705 02">
+      <change afterPath="$PROJECT_DIR$/tips/20200706071154.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tips/20200706072049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tips/20200706073649.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adbTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/adbTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameThread.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameThread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gameThreadCeramicTile.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameThreadCeramicTile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uitls/adb.py" beforeDir="false" afterPath="$PROJECT_DIR$/uitls/adb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uitls/game_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/uitls/game_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uitls/plantUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/uitls/plantUtils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,8 +184,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main_Civil" />
         <item itemvalue="Python.adbTest (1)" />
+        <item itemvalue="Python.main_Civil" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.main" />
       </list>
@@ -196,7 +203,8 @@
       <updated>1547885025645</updated>
       <workItem from="1547885028139" duration="1535000" />
       <workItem from="1547886726708" duration="25000" />
-      <workItem from="1593950291007" duration="7271000" />
+      <workItem from="1593950291007" duration="7381000" />
+      <workItem from="1593990238294" duration="5226000" />
     </task>
     <task id="LOCAL-00001" summary="update 20200705 01">
       <created>1593957671788</created>
@@ -205,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593957671788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update 20200705 02">
+      <created>1593958940891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593958940891</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,32 +236,34 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update 20200705 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 20200705 01" />
+    <MESSAGE value="update 20200705 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 20200705 02" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="331" key="FileChooserDialogImpl" timestamp="1593950730028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="331" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593950730028" />
-    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1593957853080">
+    <state width="1877" height="302" key="GridCell.Tab.0.bottom" timestamp="1593995086282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593957853080" />
-    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1593957853080">
+    <state width="1877" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593995086282" />
+    <state width="1877" height="302" key="GridCell.Tab.0.center" timestamp="1593995086281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593957853080" />
-    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1593957853080">
+    <state width="1877" height="302" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593995086281" />
+    <state width="1877" height="302" key="GridCell.Tab.0.left" timestamp="1593995086281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593957853080" />
-    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1593957853080">
+    <state width="1877" height="302" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593995086281" />
+    <state width="1877" height="302" key="GridCell.Tab.0.right" timestamp="1593995086282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593957853080" />
+    <state width="1877" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593995086282" />
     <state x="766" y="240" key="RollbackChangesDialog" timestamp="1593957913833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -255,8 +272,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593951384093" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593995142409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593995142409" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PlantsVsZombies$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1593957835899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PlantsVsZombies$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1593993668328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PlantsVsZombies$adbTest__1_.coverage" NAME="adbTest (1) Coverage Results" MODIFIED="1593992939903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
